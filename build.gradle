@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.github.mpztilera.modpackbuilder:anvil.modpackbuilder.gradle.plugin:2.0'
+    }
+}
+
+plugins {
+    id 'base'
+}
+
+def getVersionName = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'describe', '--tags'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+apply plugin: "anvil.modpackbuilder"
+
+group 'mpz.anvil'
+version getVersionName()
+

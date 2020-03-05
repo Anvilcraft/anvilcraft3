@@ -19,7 +19,7 @@ mods.recipestages.Recipes.setRecipeStageByMod("tech:steam", "magneticraft");
 mods.recipestages.Recipes.setRecipeStageByMod("tech:computer", "opencomputers");
 mods.recipestages.Recipes.setRecipeStageByMod("tech:computer", "advancedrocketry");
 //Draconic
-mods.recipestages.Recipes.setRecipeStageByMod("tech:draconic", "draconicevolution");
+mods.recipestages.Recipes.setRecipeStage("tech:draconic", <draconicevolution:fusion_crafting_core>);
 //Advanced
 mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "powersuits");
@@ -27,6 +27,3 @@ mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "powersuits");
 mods.recipestages.Recipes.setRecipeStage("magic:cosmic", <avaritia:extreme_crafting_table>);
 //Agri
 mods.recipestages.Recipes.setRecipeStage("magic:agri", <mysticalagriculture:infusion_crystal>);
-mods.recipestages.Recipes.setRecipeStage("magic:agri", <mysticalagriculture:crafting:17>);
-//Ender
-mods.recipestages.Recipes.setRecipeStageByMod("tech:ender", "enderio");

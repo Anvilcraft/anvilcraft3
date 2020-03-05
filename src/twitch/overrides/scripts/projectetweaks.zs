@@ -103,11 +103,17 @@ recipes.addShapeless(<projectex:collector>, [<projecte:collector_mk1>]);
 
 recipes.addShapeless(<projectex:energy_link>, [<projecte:transmutation_table>, <projecte:relay_mk1>]);
 
-mods.recipestages.Recipes.setRecipeStageByMod("alchemy:tier1", "projecte");
-mods.recipestages.Recipes.setRecipeStageByMod("alchemy:tier1", "projectex");
-mods.recipestages.Recipes.setRecipeStageByMod("alchemy:tier1", "equivalentenergistics");
-mods.recipestages.Recipes.setRecipeStageByMod("alchemy:tier1", "equivalentintegrations");
+mods.recipestages.Recipes.setRecipeStage("alchemy:tier1", <extendedcrafting:table_advanced>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projecte:collector_mk2>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:collector:1>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <calculator:atomicmultiplier>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:magnum_star_ein>);
+
+recipes.remove(<refined_avaritia:extreme_pattern_encoder>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_pattern_encoder>, [
+	[null, null, null, null, null],
+	[null, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, null],
+	[null, <refined_avaritia:extreme_pattern>, <refinedstorage:machine_casing>, <refined_avaritia:extreme_pattern>, null],
+	[null, <ore:ingotCosmicNeutronium>, <refinedstorage:quartz_enriched_iron>, <ore:ingotCosmicNeutronium>, null],
+	[null, null, null, null, null]
+]);

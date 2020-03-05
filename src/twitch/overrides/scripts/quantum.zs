@@ -17,10 +17,10 @@ recipes.remove(<quantumstorage:quantum_storage_unit>);
 recipes.remove(<quantumstorage:quantum_tank>);
 recipes.remove(<quantumstorage:remote>);
 recipes.remove(<quantumstorage:quantumcrafter>);
-mods.recipestages.Recipes.addShapeless("tech:quantum", <quantumstorage:quantum_battery>, [<quantumflux:craftingpiece:5>, <enderio:item_basic_capacitor:2>]);
-mods.recipestages.Recipes.addShapeless("tech:quantum", <quantumstorage:quantum_storage_unit>, [<quantumflux:craftingpiece:5>, <industrialforegoing:black_hole_unit>]);
-mods.recipestages.Recipes.addShapeless("tech:quantum", <quantumstorage:quantum_tank>, [<quantumflux:craftingpiece:5>, <industrialforegoing:black_hole_tank>]);
-mods.recipestages.Recipes.addShapeless("tech:quantum", <quantumstorage:remote>, [<quantumflux:craftingpiece:5>, <appliedenergistics2:part:380>, <appliedenergistics2:material:41>]);
+recipes.addShapeless(<quantumstorage:quantum_battery>, [<quantumflux:craftingpiece:5>, <enderio:item_basic_capacitor:2>]);
+recipes.addShapeless(<quantumstorage:quantum_storage_unit>, [<quantumflux:craftingpiece:5>, <industrialforegoing:black_hole_unit>]);
+recipes.addShapeless(<quantumstorage:quantum_tank>, [<quantumflux:craftingpiece:5>, <industrialforegoing:black_hole_tank>]);
+recipes.addShapeless(<quantumstorage:remote>, [<quantumflux:craftingpiece:5>, <appliedenergistics2:part:380>, <appliedenergistics2:material:41>]);
 recipes.addShaped(<quantumstorage:quantumcrafter>, [
 	[<quantumflux:craftingpiece>, null, <quantumflux:craftingpiece>],
 	[<quantumflux:craftingpiece>, <gregtech:machine:100>, <quantumflux:craftingpiece>],
@@ -41,7 +41,6 @@ recipes.addShaped(<enderrift:rift_orb>, [
 
 //QuantumFlux
 recipes.removeByMod("quantumflux");
-mods.recipestages.Recipes.addShapeless("tech:quantum", <quantumflux:craftingpiece> * 32, [<mekanism:atomicalloy>]);
 recipes.addShaped(<quantumflux:craftingpiece:5>, [
 	[<quantumflux:craftingpiece>, <ore:ingotCrystaltine>, <quantumflux:craftingpiece>],
 	[<extendedcrafting:material:40>, <ore:circuitUltimate>, <extendedcrafting:material:40>],
@@ -86,3 +85,11 @@ recipes.addShaped(<fluxnetworks:fluxplug>, [
 ]);
 
 mods.recipestages.Recipes.setRecipeStage("tech:quantum", <extendedcrafting:compressor>);
+
+mods.recipestages.Recipes.addShapeless("tech:quantum", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quantumchamber"}), [<minecraft:paper>, <mekanism:machineblock:2>]);
+
+val reci = mods.modularmachinery.RecipeBuilder.newBuilder("qbit", "quantumchamber", 2000);
+reci.addEnergyPerTickInput(512);
+reci.addItemInput(<mekanism:atomicalloy>);
+reci.addItemOutput(<quantumflux:craftingpiece> * 32);
+reci.build();

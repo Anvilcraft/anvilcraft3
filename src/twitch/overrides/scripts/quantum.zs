@@ -1,15 +1,3 @@
-//Tardis
-recipes.remove(<thedalekmod:tardis_shell>);
-
-recipes.addShapeless(<thedalekmod:brassingot>, [<ore:ingotBrass>]);
-recipes.addShapeless(<thedalekmod:silicon>, [<ore:itemSilicon>]);
-recipes.addShapeless(<thedalekmod:steelingot>, [<ore:ingotSteel>]);
-recipes.addShaped(<thedalekmod:tardis_shell>,
- [[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<rftoolsdim:dimension_builder>,<ore:ingotSteel>],
-  [<ore:ingotSteel>,<quantumflux:craftingpiece:5>,<ore:ingotSteel>]]);
-
-
 
 //quantum_storage_unit
 recipes.remove(<quantumstorage:quantum_battery>);

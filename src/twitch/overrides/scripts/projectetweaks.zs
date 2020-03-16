@@ -11,6 +11,7 @@ recipes.remove(<equivalentintegrations:soulbound_talisman>);
 recipes.remove(<equivalentintegrations:alchemical_algorithms>);
 recipes.remove(<projectex:energy_link>);
 recipes.remove(<projectex:collector>);
+recipes.remove(<projecte:item.pe_repair_talisman>);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:item.pe_philosophers_stone>, [
 	[<ore:glowstone>, <ore:blockRedstone>, <ore:glowstone>],
@@ -117,3 +118,5 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_patte
 	[null, <ore:ingotCosmicNeutronium>, <refinedstorage:quartz_enriched_iron>, <ore:ingotCosmicNeutronium>, null],
 	[null, null, null, null, null]
 ]);
+
+recipes.addShapeless(<projecte:item.pe_repair_talisman>, [<actuallyadditions:block_item_repairer>, <projecte:collector_mk1>]);

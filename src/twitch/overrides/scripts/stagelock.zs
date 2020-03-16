@@ -25,5 +25,3 @@ mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "powersuits");
 //Cosmic
 mods.recipestages.Recipes.setRecipeStage("magic:cosmic", <avaritia:extreme_crafting_table>);
-//Agri
-mods.recipestages.Recipes.setRecipeStage("magic:agri", <mysticalagriculture:infusion_crystal>);

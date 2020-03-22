@@ -11,6 +11,22 @@
     {
       "item": "minecraft:dragon_breath|0",
       "emc": 139264
+    },
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 768
+    },
+    {
+      "item": "draconicevolution:draconium_dust|0",
+      "emc": 8192
+    },
+    {
+      "item": "avaritia:extreme_crafting_table|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:fusion_crafting_core|0",
+      "emc": 0
     }
   ]
 }

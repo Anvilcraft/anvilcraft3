@@ -23,5 +23,7 @@ mods.recipestages.Recipes.setRecipeStage("tech:draconic", <draconicevolution:fus
 //Advanced
 mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "powersuits");
+mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "thermaldynamics");
+mods.recipestages.Recipes.setRecipeStageByMod("tech:advanced", "scannable");
 //Cosmic
 mods.recipestages.Recipes.setRecipeStage("magic:cosmic", <avaritia:extreme_crafting_table>);

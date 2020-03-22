@@ -37,21 +37,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk1>, [
 	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk1>, [
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <projecte:item.pe_philosophers_stone>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extrautils2:opinium:3>, <projecte:alchemical_chest>, <extrautils2:opinium:3>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <extendedcrafting:compressor>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk1>, [
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <projecte:item.pe_philosophers_stone>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extrautils2:opinium:3>, <projecte:alchemical_chest>, <extrautils2:opinium:3>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <avaritia:neutronium_compressor>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>]
-]);
+recipes.addShapeless(<appliedenergistics2:condenser>, [<extendedcrafting:compressor>]);
 
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projectex:personal_link>, [
@@ -81,9 +67,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:collector_mk1>, [
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:item.pe_tome>, [
-	[<extrautils2:klein>, <projectex:matter:2>, <extrautils2:klein>],
+	[<extrautils2:klein>, <projectex:collector:5>, <extrautils2:klein>],
 	[<projectex:magnum_star_omega>, <equivalentintegrations:alchemical_algorithms>, <projectex:magnum_star_omega>],
-	[<extrautils2:klein>, <projectex:matter:2>, <extrautils2:klein>]
+	[<extrautils2:klein>, <projectex:collector:5>, <extrautils2:klein>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShapeless(2, <projectex:knowledge_sharing_book>, [<projectex:matter>, <equivalentintegrations:alchemical_algorithms>, <equivalentintegrations:soulbound_talisman>]);
@@ -105,10 +91,9 @@ recipes.addShapeless(<projectex:collector>, [<projecte:collector_mk1>]);
 recipes.addShapeless(<projectex:energy_link>, [<projecte:transmutation_table>, <projecte:relay_mk1>]);
 
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier1", <extendedcrafting:table_advanced>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projecte:collector_mk2>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:collector:1>);
+mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:collector:2>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <calculator:atomicmultiplier>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:magnum_star_ein>);
+mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:final_star>);
 
 recipes.remove(<refined_avaritia:extreme_pattern_encoder>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_pattern_encoder>, [

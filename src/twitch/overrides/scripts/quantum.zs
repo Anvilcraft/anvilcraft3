@@ -72,8 +72,6 @@ recipes.addShaped(<fluxnetworks:fluxplug>, [
 	[null, <fluxnetworks:fluxcore>, null]
 ]);
 
-mods.recipestages.Recipes.setRecipeStage("tech:quantum", <extendedcrafting:compressor>);
-
 mods.recipestages.Recipes.addShapeless("tech:quantum", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quantumchamber"}), [<minecraft:paper>, <mekanism:machineblock:2>]);
 
 val reci = mods.modularmachinery.RecipeBuilder.newBuilder("qbit", "quantumchamber", 2000);

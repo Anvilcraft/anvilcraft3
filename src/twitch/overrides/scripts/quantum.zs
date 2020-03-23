@@ -72,10 +72,22 @@ recipes.addShaped(<fluxnetworks:fluxplug>, [
 	[null, <fluxnetworks:fluxcore>, null]
 ]);
 
-mods.recipestages.Recipes.addShapeless("tech:quantum", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quantumchamber"}), [<minecraft:paper>, <mekanism:machineblock:2>]);
+mods.recipestages.Recipes.setRecipeStage("tech:quantum", <modularmachinery:blockcontroller>);
 
 val reci = mods.modularmachinery.RecipeBuilder.newBuilder("qbit", "quantumchamber", 2000);
 reci.addEnergyPerTickInput(512);
 reci.addItemInput(<mekanism:atomicalloy>);
 reci.addItemOutput(<quantumflux:craftingpiece> * 32);
 reci.build();
+
+recipes.remove(<modularmachinery:itemmodularium>);
+
+val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
+blast_furnace.recipeBuilder()
+    .inputs(<enderio:item_alloy_ingot:1> * 1)
+    .fluidInputs([<liquid:oxygen> * 500])
+    .outputs(<modularmachinery:itemmodularium> * 1)
+    .property("temperature", 1000)
+    .duration(40)
+    .EUt(120)
+    .buildAndRegister();

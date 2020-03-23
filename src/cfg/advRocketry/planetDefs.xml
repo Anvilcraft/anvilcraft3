@@ -90,7 +90,7 @@
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.956,0.690,0.305</skyColor>
 			<gravitationalMultiplier>150</gravitationalMultiplier>
-			<orbitalDistance>125</orbitalDistance>
+			<orbitalDistance>140</orbitalDistance>
 			<orbitalTheta>120</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
 			<rotationalPeriod>54000</rotationalPeriod>
@@ -128,7 +128,7 @@
 			<gas>fluidhelium</gas>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.8,0.784,0.250</skyColor>
-			<gravitationalMultiplier>140</gravitationalMultiplier>
+			<gravitationalMultiplier>150</gravitationalMultiplier>
 			<orbitalDistance>160</orbitalDistance>
 			<orbitalTheta>225</orbitalTheta>
 			<orbitalPhi>0</orbitalPhi>
@@ -224,5 +224,168 @@
 				<biomeIds>minecraft:ice_mountains</biomeIds>
 			</planet>
 		</planet>
+	</star>
+	<star name="Midgard" temp="100" x="10" y="10" size="1.0" numPlanets="0" numGasGiants="0">
+		<star name="Ethernal Sun" temp="100" separation="50.0" />
+		<planet name="Asgard" DIMID="4" dimMapping="" customIcon="gasgiantred">
+			<isKnown>True</isKnown>
+			<orbitalDistance>20</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+		</planet>
+		<planet name="Muspelheim" customIcon="marslike" DIMID="101">
+			<isKnown>True</isKnown>
+			<orbitalDistance>60</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>8</biomeIds>
+			<oceanBlock>minecraft:lava</oceanBlock>
+			<fillerBlock>minecraft:netherrack</fillerBlock>
+		</planet>
+		<planet name="Jotunheim" customIcon="iceworld" DIMID="102">
+			<isKnown>True</isKnown>
+			<orbitalDistance>80</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>13,140</biomeIds>
+			<oceanBlock>minecraft:ice</oceanBlock>
+			<fillerBlock>minecraft:snow_block</fillerBlock>
+		</planet>
+		<planet name="Nidavellir" customIcon="moon" DIMID="103">
+			<isKnown>True</isKnown>
+			<orbitalDistance>100</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<oceanBlock>lucraftcore:uru</oceanBlock>
+			<fillerBlock>lucraftcore:ore_uru</fillerBlock>
+		</planet>
+		<planet name="Alfheim" customIcon="earthlike" DIMID="104">
+			<isKnown>True</isKnown>
+			<orbitalDistance>120</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>1</biomeIds>
+		</planet>
+		<planet name="Vannaheim" customIcon="earthlike" DIMID="105">
+			<isKnown>True</isKnown>
+			<orbitalDistance>120</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>1</biomeIds>
+		</planet>
+		<planet name="Niffelheim" customIcon="moon" DIMID="106">
+			<isKnown>True</isKnown>
+			<orbitalDistance>120</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<fillerBlock>advancedrocketry:basalt</fillerBlock>
+			<fogColor>0x000000</fogColor>
+			<skyColor>0x000000</skyColor>
+		</planet>
+		<planet name="Svartalfheim" customIcon="moon" DIMID="107">
+			<isKnown>True</isKnown>
+			<orbitalDistance>120</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<fillerBlock>advancedrocketry:basalt</fillerBlock>
+			<fogColor>0x000000</fogColor>
+			<skyColor>0x000000</skyColor>
+		</planet>
+	</star>
+	<star name="Kerbol" temp="100" x="20" y="0" size="1.0" numPlanets="0" numGasGiants="0">
+		<planet name="Moho" customIcon="marslike" DIMID="108">
+			<isKnown>True</isKnown>
+			<orbitalDistance>10</orbitalDistance>
+		</planet>
+		<planet name="Eve" customIcon="gasgiantblue" DIMID="109">
+			<isKnown>True</isKnown>
+			<orbitalDistance>20</orbitalDistance>
+			<fogColor>0x800080</fogColor>
+			<skyColor>0x800080</skyColor>
+			<planet name="Gilly" customIcon="moon" DIMID="110">
+				<orbitalDistance>10</orbitalDistance>
+			</planet>
+		</planet>
+		<planet name="Kerbin" DIMID="111" dimMapping="" customIcon="earthlike">
+			<isKnown>True</isKnown>
+			<orbitalDistance>30</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="Mun" customIcon="moon" DIMID="112">
+				<orbitalDistance>10</orbitalDistance>
+			</planet>
+			<planet name="Minimus" customIcon="moon" DIMID="113">
+				<orbitalDistance>40</orbitalDistance>
+			</planet>
+		</planet>
+		<planet name="Duna" customIcon="marslike" DIMID="114">
+			<isKnown>True</isKnown>
+			<orbitalDistance>40</orbitalDistance>
+			<fogColor>0xFFA500</fogColor>
+			<skyColor>0xFFA500</skyColor>
+			<planet name="Ike" customIcon="moon" DIMID="115">
+				<orbitalDistance>10</orbitalDistance>
+			</planet>
+		</planet>
+		<planet name="Dres" customIcon="moon" DIMID="116">
+			<isKnown>True</isKnown>
+			<orbitalDistance>50</orbitalDistance>
+		</planet>
+		<planet name="Jool" customIcon="gasgiantblue" DIMID="117">
+			<isKnown>True</isKnown>
+			<orbitalDistance>70</orbitalDistance>
+			<fogColor>0x238555</fogColor>
+			<skyColor>0x238555</skyColor>
+			<GasGiant>true</GasGiant>
+			<gas>liquidtritium</gas>
+			<planet name="Laythe" customIcon="moon" DIMID="118">
+				<orbitalDistance>10</orbitalDistance>
+			</planet>
+			<planet name="Vall" customIcon="moon" DIMID="119">
+				<orbitalDistance>20</orbitalDistance>
+			</planet>
+			<planet name="Tylo" customIcon="moon" DIMID="120">
+				<orbitalDistance>30</orbitalDistance>
+			</planet>
+			<planet name="Bop" customIcon="moon" DIMID="121">
+				<orbitalDistance>40</orbitalDistance>
+			</planet>
+			<planet name="Pol" customIcon="moon" DIMID="122">
+				<orbitalDistance>50</orbitalDistance>
+			</planet>
+		</planet>
+		<planet name="Eeloo" customIcon="moon" DIMID="123">
+			<isKnown>True</isKnown>
+			<orbitalDistance>80</orbitalDistance>
+		</planet>
+	</star>
+	<star name="Nukluid" temp="100" x="0" y="20" size="2.0" numPlanets="0" numGasGiants="0">
+		<planet name="Waste" DIMID="4598" dimMapping="" customIcon="earthlike">
+			<isKnown>True</isKnown>
+			<orbitalDistance>30</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+		</planet>
+		<planet name="Prime City" DIMID="133" dimMapping="" customIcon="earthlike">
+			<isKnown>True</isKnown>
+			<orbitalDistance>40</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+		</planet>
+		<planet name="Mine One" DIMID="134" dimMapping="" customIcon="earthlike">
+			<isKnown>True</isKnown>
+			<orbitalDistance>60</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>100</atmosphereDensity>
+		</planet>
+		<planet name="Fusionarium" DIMID="135" customIcon="gasgiantblue">
+			<isKnown>True</isKnown>
+			<orbitalDistance>100</orbitalDistance>
+			<GasGiant>True</GasGiant>
+			<gas>tritium</gas>
+			<gas>deuterium</gas>
+		</planet>
+	</star>
+	<star blackHole="true" name="Nebula" temp="100" x="50" y="50" size="3.0" numPlanets="0" numGasGiants="0">
 	</star>
 </galaxy>

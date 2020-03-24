@@ -229,13 +229,13 @@
 		<star name="Ethernal Sun" temp="100" separation="50.0" />
 		<planet name="Asgard" DIMID="4" dimMapping="" customIcon="gasgiantred">
 			<isKnown>True</isKnown>
-			<orbitalDistance>20</orbitalDistance>
+			<orbitalDistance>60</orbitalDistance>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<atmosphereDensity>100</atmosphereDensity>
 		</planet>
 		<planet name="Muspelheim" customIcon="marslike" DIMID="101">
 			<isKnown>True</isKnown>
-			<orbitalDistance>60</orbitalDistance>
+			<orbitalDistance>20</orbitalDistance>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<atmosphereDensity>100</atmosphereDensity>
 			<biomeIds>8</biomeIds>
@@ -279,6 +279,8 @@
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<atmosphereDensity>100</atmosphereDensity>
 			<fillerBlock>advancedrocketry:basalt</fillerBlock>
+			<oceanBlock>minecraft:lava</oceanBlock>
+			<biomeIds>8</biomeIds>
 			<fogColor>0x000000</fogColor>
 			<skyColor>0x000000</skyColor>
 		</planet>

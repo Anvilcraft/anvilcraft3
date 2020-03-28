@@ -15,5 +15,5 @@ plugins {
 apply plugin: "anvil.modpackbuilder"
 
 group 'mpz.anvil'
-version '1.5.1'
+version '1.5.2'
 

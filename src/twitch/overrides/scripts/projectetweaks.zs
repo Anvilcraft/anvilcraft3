@@ -12,6 +12,7 @@ recipes.remove(<equivalentintegrations:alchemical_algorithms>);
 recipes.remove(<projectex:energy_link>);
 recipes.remove(<projectex:collector>);
 recipes.remove(<projecte:item.pe_repair_talisman>);
+recipes.remove(<projectex:stone_table>);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:item.pe_philosophers_stone>, [
 	[<ore:glowstone>, <ore:blockRedstone>, <ore:glowstone>],
@@ -38,6 +39,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk1>, [
 ]);
 
 recipes.addShapeless(<appliedenergistics2:condenser>, [<extendedcrafting:compressor>]);
+recipes.addShapeless(<projectex:stone_table>, [<projecte:transmutation_table>]);
 
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projectex:personal_link>, [
@@ -81,9 +83,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <equivalentintegrations:soulbou
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <equivalentintegrations:alchemical_algorithms>, [
-	[<projecte:item.pe_covalence_dust>, <refinedstorage:storage_part:1>, <projecte:item.pe_covalence_dust:1>],
+	[<projecte:item.pe_covalence_dust>, <appliedenergistics2:material:36>, <projecte:item.pe_covalence_dust:1>],
 	[<appliedenergistics2:material:36>, <minecraft:book>, <appliedenergistics2:material:36>],
-	[<ore:alloyBasic>, <refinedstorage:storage_part:1>, <projecte:item.pe_covalence_dust:2>]
+	[<ore:alloyBasic>, <appliedenergistics2:material:36>, <projecte:item.pe_covalence_dust:2>]
 ]);
 
 recipes.addShapeless(<projectex:collector>, [<projecte:collector_mk1>]);

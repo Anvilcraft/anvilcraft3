@@ -95,7 +95,6 @@ recipes.addShapeless(<projectex:energy_link>, [<projecte:transmutation_table>, <
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier1", <extendedcrafting:table_advanced>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:collector:2>);
 mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <calculator:atomicmultiplier>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:final_star>);
 
 recipes.remove(<refined_avaritia:extreme_pattern_encoder>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_pattern_encoder>, [

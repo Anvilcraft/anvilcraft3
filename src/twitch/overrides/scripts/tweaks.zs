@@ -15,3 +15,10 @@ recipes.addShaped(<extendedcrafting:table_advanced>, [
 ]);
 
 mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
+
+recipes.remove(<proxy:proxy>);
+recipes.addShaped(<proxy:proxy>, [
+	[<actuallyadditions:item_crystal_empowered:2>, <extrautils2:ingredients:2>, <actuallyadditions:item_crystal_empowered:2>],
+	[<minecraft:ender_eye>, <minecraft:obsidian>, <minecraft:ender_eye>],
+	[<actuallyadditions:item_crystal_empowered:2>, <extrautils2:ingredients:2>, <actuallyadditions:item_crystal_empowered:2>]
+	]);

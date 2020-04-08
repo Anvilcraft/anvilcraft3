@@ -30,9 +30,9 @@ recipes.addShaped(<enderrift:rift_orb>, [
 //QuantumFlux
 recipes.removeByMod("quantumflux");
 recipes.addShaped(<quantumflux:craftingpiece:5>, [
-	[<quantumflux:craftingpiece>, <ore:ingotCrystaltine>, <quantumflux:craftingpiece>],
+	[<quantumflux:craftingpiece>, <mekanism:teleportationcore>, <quantumflux:craftingpiece>],
 	[<extendedcrafting:material:40>, <ore:circuitUltimate>, <extendedcrafting:material:40>],
-	[<quantumflux:craftingpiece>, <ore:ingotCrystaltine>, <quantumflux:craftingpiece>]
+	[<quantumflux:craftingpiece>, <mekanism:teleportationcore>, <quantumflux:craftingpiece>]
 ]);
 recipes.addShaped(<quantumflux:entropyaccelerator>, [
 	[<quantumflux:craftingpiece>, <projecte:condenser_mk1>, <quantumflux:craftingpiece>],

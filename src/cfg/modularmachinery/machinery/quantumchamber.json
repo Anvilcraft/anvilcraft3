@@ -524,7 +524,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "mekanism:machineblock2@14"
+                "mekanism:machineblock3@0"
             ]
         },
         {
@@ -559,7 +559,8 @@
             "z": 1,
 
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockinputbus"
             ]
         },
         {

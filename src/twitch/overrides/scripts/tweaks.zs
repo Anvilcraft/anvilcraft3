@@ -9,10 +9,15 @@ recipes.remove(<extendedcrafting:table_basic>);
 recipes.remove(<extendedcrafting:table_advanced>);
 recipes.remove(<magneticraft:steam_turbine>);
 recipes.addShaped(<extendedcrafting:table_advanced>, [
-	[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>],
-	[<ore:crafterWood>, <ore:blockGold>, <ore:crafterWood>],
-	[<extendedcrafting:material:15>, <extendedcrafting:material:2>, <extendedcrafting:material:15>]
+	[<alchemistry:ingot:44>, <extendedcrafting:material:9>, <alchemistry:ingot:44>],
+	[<alchemistry:ingot:44>, <astralsorcery:blockaltar>, <alchemistry:ingot:44>],
+	[<extendedcrafting:material:15>, <alchemistry:ingot:118>, <extendedcrafting:material:15>]
 ]);
+
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("anvilcraft:shaped/internal/altar/table", <extendedcrafting:table_advanced>, 100, 20, [
+<alchemistry:ingot:44>, <extendedcrafting:material:9>, <alchemistry:ingot:44>,
+<alchemistry:ingot:44>, <ore:workbench>, <alchemistry:ingot:44>,
+<extendedcrafting:material:15>, <alchemistry:ingot:118>, <extendedcrafting:material:15>]);
 
 mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
 

@@ -1,3 +1,5 @@
+import mods.appliedenergistics2.Inscriber;
+
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.remove(<projecte:transmutation_table>);
 recipes.remove(<projecte:condenser_mk1>);
@@ -31,11 +33,11 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:transmutation_table>,
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:condenser_mk1>, [
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>],
+	[<bloodmagic:slate:1>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <bloodmagic:slate:1>],
 	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <projecte:item.pe_philosophers_stone>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
 	[<extendedcrafting:material:48>, <extrautils2:opinium:3>, <projecte:alchemical_chest>, <extrautils2:opinium:3>, <extendedcrafting:material:48>],
 	[<extendedcrafting:material:48>, <extendedcrafting:material:40>, <appliedenergistics2:condenser>, <extendedcrafting:material:40>, <extendedcrafting:material:48>],
-	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>]
+	[<bloodmagic:slate:1>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <bloodmagic:slate:1>]
 ]);
 
 recipes.addShapeless(<appliedenergistics2:condenser>, [<extendedcrafting:compressor>]);
@@ -49,9 +51,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projectex:personal_link>, [
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <equivalentintegrations:transmutation_chamber>, [
-	[<extrautils2:klein>, <fluxnetworks:flux>, <extrautils2:klein>],
-	[<refinedstorage:storage_part:2>, <projectex:personal_link>, <appliedenergistics2:material:47>],
-	[<extrautils2:klein>, <enderrift:rift>, <extrautils2:klein>]
+	[<extrautils2:klein>, <equivalentenergistics:emc_crystal:2>, <extrautils2:klein>],
+	[<appliedenergistics2:material:47>, <projectex:personal_link>, <appliedenergistics2:material:47>],
+	[<extrautils2:klein>, <equivalentenergistics:emc_crystal:2>, <extrautils2:klein>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <equivalentintegrations:transmutation_generator>, [
@@ -92,10 +94,6 @@ recipes.addShapeless(<projectex:collector>, [<projecte:collector_mk1>]);
 
 recipes.addShapeless(<projectex:energy_link>, [<projecte:transmutation_table>, <projecte:relay_mk1>]);
 
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier1", <extendedcrafting:table_advanced>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <projectex:collector:2>);
-mods.recipestages.Recipes.setRecipeStage("alchemy:tier2", <calculator:atomicmultiplier>);
-
 recipes.remove(<refined_avaritia:extreme_pattern_encoder>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_pattern_encoder>, [
 	[null, null, null, null, null],
@@ -106,3 +104,13 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <refined_avaritia:extreme_patte
 ]);
 
 recipes.addShapeless(<projecte:item.pe_repair_talisman>, [<actuallyadditions:block_item_repairer>, <projecte:collector_mk1>]);
+
+recipes.remove(<projectex:collector>);
+recipes.remove(<projectex:collector:1>);
+recipes.remove(<projectex:collector:2>);
+Inscriber.addRecipe(<projectex:collector>, <projecte:collector_mk1>, false, <refinedstorage:quartz_enriched_iron>, <quantumflux:craftingpiece>);
+Inscriber.addRecipe(<projectex:collector:1>, <projecte:collector_mk2>, false, <refinedstorage:quartz_enriched_iron>, <quantumflux:craftingpiece>);
+Inscriber.addRecipe(<projectex:collector:2>, <projecte:collector_mk3>, false, <refinedstorage:quartz_enriched_iron>, <quantumflux:craftingpiece>);
+
+recipes.remove(<calculator:atomicmultiplier>);
+recipes.addShapeless(<calculator:atomicmultiplier>, [<calculator:calculatorplug:*>, <calculator:fabricationchamber:*>, <calculator:calculatorplug:*>, <calculator:atomicmodule:*>, <calculator:atomicassembly:*>, <calculator:atomicmodule:*>, <projectex:collector:2>, <calculator:enddiamond:*>, <projectex:collector:2>]);

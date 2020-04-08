@@ -3,8 +3,8 @@ recipes.remove(<projecte:item.pe_swrg>);
 
 
 recipes.addShaped(<environmentaltech:modifier_creative_flight>, [
-	[<simplyjetpacks:itemjetpack:22>, <ore:crystalLitherite>, <extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}})], 
-	[<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>], 
+	[<simplyjetpacks:itemjetpack:22>, <ore:crystalLitherite>, <minecraft:blaze_rod>], 
+	[<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>],
 	[<ore:feather>, <ore:crystalLonsdaleite>, <ore:feather>]
 ]);
 
@@ -18,7 +18,7 @@ recipes.removeShaped(<extrautils2:angelring>, [[<ore:blockGlass>, <ore:ingotGold
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring>, 1000, <extrautils2:chickenring:1>, [<extrautils2:unstableingots:2>, <extrautils2:unstableingots:2>, <minecraft:elytra>, <environmentaltech:modifier_creative_flight>, <ore:netherStar>, <extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}}), <extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:ghast"}})]);
 
 recipes.addShaped(<projecte:item.pe_swrg>, [
-	[<ore:feather>, <ore:netherStar>, <ore:feather>], 
-	[<ore:coal>, <projecte:item.pe_ring_iron_band>, <ore:coal>], 
+	[<ore:feather>, <ore:netherStar>, <ore:feather>],
+	[<projecte:item.pe_matter>, <extrautils2:chickenring:1>, <extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}})],
 	[<ore:alloyBasic>, <environmentaltech:modifier_creative_flight>, <ore:alloyBasic>]
 ]);

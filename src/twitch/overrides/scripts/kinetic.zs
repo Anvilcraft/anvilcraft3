@@ -30,9 +30,13 @@ recipes.addShaped(<thermalexpansion:cell>, [
 	[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>]
 ]);
 
-recipes.remove(<thermalexpansion:frame:128>);
-recipes.addShaped(<thermalexpansion:frame:128>, [
-	[<ore:ingotIron>, <ore:paneGlassColorless>, <ore:ingotIron>],
-	[<ore:paneGlassColorless>, null, <ore:paneGlassColorless>],
-	[<ore:ingotIron>, <ore:paneGlassColorless>, <ore:ingotIron>]
-]);
+recipes.remove(<thermalexpansion:augment:640>);
+recipes.addShaped(<thermalexpansion:augment:640>, [[null, <thermalfoundation:material:32>, null],[<thermalfoundation:material:32>, <thermalfoundation:material:24>, <thermalfoundation:material:32>], [null, <thermalfoundation:material:32>, null]]);
+
+recipes.remove(<magneticraft:crushing_table>);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates> * 5, <minecraft:iron_block>, 1000);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates:1> * 5, <minecraft:gold_block>, 1000);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates:2> * 5, <thermalfoundation:storage>, 1000);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates:3> * 5, <thermalfoundation:storage:3>, 1000);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates:5> * 5, <techreborn:storage:10>, 1000);
+mods.thermalexpansion.Compactor.addPressRecipe(<magneticraft:light_plates:6> * 5, <thermalfoundation:storage_alloy>, 1000);

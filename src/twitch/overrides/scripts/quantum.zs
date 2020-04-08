@@ -72,8 +72,6 @@ recipes.addShaped(<fluxnetworks:fluxplug>, [
 	[null, <fluxnetworks:fluxcore>, null]
 ]);
 
-mods.recipestages.Recipes.setRecipeStage("tech:quantum", <modularmachinery:blockcontroller>);
-
 val reci = mods.modularmachinery.RecipeBuilder.newBuilder("qbit", "quantumchamber", 2000);
 reci.addEnergyPerTickInput(512);
 reci.addItemInput(<mekanism:atomicalloy>);

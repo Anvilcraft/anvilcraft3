@@ -15,6 +15,8 @@ recipes.addShaped(<bigreactors:reactorcasing> * 4, [[null, <nuclearcraft:part>, 
 recipes.addShaped(<nuclearcraft:part> * 2, [[<magneticraft:heavy_plates:3>, <ore:plateGraphite>, null],[<ore:plateGraphite>, <magneticraft:heavy_plates:3>, null], [null, null, null]]);
 
 <ore:circuitBasic>.remove(<techreborn:part:29>);
+<ore:ingotSteel>.remove(<ancientwarfare:steel_ingot>);
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
 
 
 val whitelist = ["plateWood", "platePaper", "plateAdvanced", "plateDU", "plateElite"] as string[];

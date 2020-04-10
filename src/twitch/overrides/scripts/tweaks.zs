@@ -27,3 +27,17 @@ recipes.addShaped(<proxy:proxy>, [
 	[<minecraft:ender_eye>, <minecraft:obsidian>, <minecraft:ender_eye>],
 	[<actuallyadditions:item_crystal_empowered:2>, <extrautils2:ingredients:2>, <actuallyadditions:item_crystal_empowered:2>]
 	]);
+
+	recipes.remove(<danknull:dank_null_panel_5>);
+	recipes.remove(<danknull:dank_null_panel_4>);
+	recipes.remove(<danknull:dank_null_panel_3>);
+	recipes.remove(<danknull:dank_null_panel_2>);
+	recipes.remove(<danknull:dank_null_panel_1>);
+	recipes.remove(<danknull:dank_null_panel_0>);
+
+	recipes.addShaped(<danknull:dank_null_panel_5>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:4>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal:4>, <quantumstorage:quantum_storage_unit>, <actuallyadditions:item_crystal:4>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:4>, <actuallyadditions:item_misc:5>]]);
+	recipes.addShaped(<danknull:dank_null_panel_4>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:2>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal:2>, <industrialforegoing:black_hole_unit>, <actuallyadditions:item_crystal:2>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:2>, <actuallyadditions:item_misc:5>]]);
+	recipes.addShaped(<danknull:dank_null_panel_3>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal:3>, <appliedenergistics2:storage_cell_4k>, <actuallyadditions:item_crystal:3>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_misc:5>]]);
+	recipes.addShaped(<danknull:dank_null_panel_2>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal:5>, <storagedrawers:basicdrawers>, <actuallyadditions:item_crystal:5>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:5>, <actuallyadditions:item_misc:5>]]);
+	recipes.addShaped(<danknull:dank_null_panel_1>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal:1>, <projecte:alchemical_chest>, <actuallyadditions:item_crystal:1>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal:1>, <actuallyadditions:item_misc:5>]]);
+	recipes.addShaped(<danknull:dank_null_panel_0>, [[<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal>, <actuallyadditions:item_misc:5>],[<actuallyadditions:item_crystal>, <openblocks:dev_null>, <actuallyadditions:item_crystal>], [<actuallyadditions:item_misc:5>, <actuallyadditions:item_crystal>, <actuallyadditions:item_misc:5>]]);

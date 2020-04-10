@@ -57,3 +57,5 @@ reci.addItemInput(<aether_legacy:dungeon_key>);
 reci.addItemInput(<minecraft:dragon_egg>);
 reci.addItemOutput(<infinity:reality_stone>);
 reci.build();
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<tconstruct:materials:50>, 1000, <lucraftcore:infinity_gauntlet>, [<draconicevolution:draconic_chest>, <enderio:item_stellar_alloy_chestplate>, <powersuits:powerarmor_torso>, <mysticalagriculture:supremium_chestplate>, <simplyjetpacks:itemjetpack:9>, <simplyjetpacks:itemjetpack:18>, <avaritia:infinity_chestplate>, <projecte:item.pe_gem_armor_2>, <ic2:quantum_chestplate:26>, <psi:psimetal_exosuit_chestplate>, <pneumaticcraft:pneumatic_chestplate>, <overloaded:multi_chestplate>]);

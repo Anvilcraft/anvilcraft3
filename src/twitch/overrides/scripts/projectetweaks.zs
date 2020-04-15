@@ -24,11 +24,11 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <projecte:item.pe_philosophers_
 
 mods.extendedcrafting.TableCrafting.addShaped(3, <projecte:transmutation_table>, [
 	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>],
-	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockEnchantedGravitite>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>],
-	[<extrautils2:decorativesolid:7>, <ore:blockEnchantedGravitite>, <ore:blockNetherStar>, <ore:blockEnchantedGravitite>, <ore:blockNetherStar>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>],
-	[<extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <ore:blockEnchantedGravitite>, <projecte:condenser_mk1>, <ore:blockEnchantedGravitite>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>],
-	[<extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <ore:blockNetherStar>, <ore:blockEnchantedGravitite>, <ore:blockNetherStar>, <ore:blockEnchantedGravitite>, <extrautils2:decorativesolid:7>],
-	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <ore:blockEnchantedGravitite>, <ore:blockNetherStar>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>],
+	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <ore:blockNetherStar>, <botania:storage:2>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>],
+	[<extrautils2:decorativesolid:7>, <integrateddynamics:crystalized_chorus_block>, <ore:blockNetherStar>, <botania:storage:2>, <ore:blockNetherStar>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>],
+	[<extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <integrateddynamics:crystalized_chorus_block>, <projecte:condenser_mk1>, <bigreactors:blockludicrite>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>],
+	[<extrautils2:decorativesolid:7>, <ore:blockNetherStar>, <ore:blockNetherStar>, <gregtech:compressed_9:13>, <ore:blockNetherStar>, <bigreactors:blockludicrite>, <extrautils2:decorativesolid:7>],
+	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <gregtech:compressed_9:13>, <ore:blockNetherStar>, <ore:blockNetherStar>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>],
 	[<extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>, <extrautils2:decorativesolid:7>]
 ]);
 

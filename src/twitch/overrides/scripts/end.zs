@@ -41,7 +41,7 @@ null, null, null, null, null, null, null, null, null, null, null, null, null, nu
 
 mods.bloodmagic.AlchemyTable.addRecipe(<infinity:soul_stone>, [<botania:manaresource:5>, <bloodmagic:slate:4>, <extrabees:honey_crystal>.withTag({charge: 8000.0}), <extendedcrafting:singularity_custom:44>], 20,100,5);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<infinity:mind_stone>, 1000, <extendedcrafting:singularity_custom:42>, [<projecte:item.pe_tome>, <aether_legacy:ambrosium_shard>, <projectex:matter:11>]);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<infinity:mind_stone>, 1000, <extendedcrafting:singularity_custom:42>, [<projecte:item.pe_tome>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}), <projectex:matter:11>]);
 
 val assembler = RecipeMap.getByName("assembler");
 assembler.recipeBuilder().inputs([<extendedcrafting:singularity_custom:40>, <actuallyadditions:item_crystal_shard:1>, <overloaded:energy_core>, <overloaded:fluid_core>, <overloaded:item_core>]).outputs(<heroesexpansion:space_stone>).duration(100).EUt(20).buildAndRegister();
@@ -53,7 +53,6 @@ reci.addItemInput(<actuallyadditions:item_crystal_shard>);
 reci.addItemInput(<extrautils2:teleporter:1>);
 reci.addItemInput(<quantumstorage:quantum_storage_unit>);
 reci.addItemInput(<heroesexpansion:mjolnir>);
-reci.addItemInput(<aether_legacy:dungeon_key>);
 reci.addItemInput(<minecraft:dragon_egg>);
 reci.addItemOutput(<infinity:reality_stone>);
 reci.build();

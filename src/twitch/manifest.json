@@ -11,10 +11,15 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Anvilcraft3",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "author": "AnvilcraftMC",
   "projectID": 366211,
   "files": [
+    {
+      "projectID": 285612,
+      "fileID": 2932525,
+      "required": true
+    },
     {
       "projectID": 250957,
       "fileID": 2630860,

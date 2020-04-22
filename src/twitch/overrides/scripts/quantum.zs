@@ -77,15 +77,3 @@ reci.addEnergyPerTickInput(512);
 reci.addItemInput(<mekanism:atomicalloy>);
 reci.addItemOutput(<quantumflux:craftingpiece> * 32);
 reci.build();
-
-recipes.remove(<modularmachinery:itemmodularium>);
-
-val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
-blast_furnace.recipeBuilder()
-    .inputs(<enderio:item_alloy_ingot:1> * 1)
-    .fluidInputs([<liquid:oxygen> * 500])
-    .outputs(<modularmachinery:itemmodularium> * 1)
-    .property("temperature", 1000)
-    .duration(40)
-    .EUt(120)
-    .buildAndRegister();

@@ -1,34 +1,12 @@
-recipes.remove(<techreborn:part:29>);
-recipes.remove(<ic2:crafting:1>);
-recipes.remove(<lucraftcore:basic_circuit>);
-
+#packmode techtree nogreg
 recipes.remove(<advancedrocketry:platepress>);
-recipes.remove(<ic2:forge_hammer>);
-recipes.remove(<lucraftcore:hammer>);
 recipes.remove(<bigreactors:reactorcasing>);
 recipes.remove(<nuclearcraft:part>);
-recipes.remove(<nuclearcraft:alloy_furnace_idle>);
 recipes.remove(<bigreactors:turbinehousing>);
 
 recipes.addShaped(<bigreactors:turbinehousing> * 4, [[null, <magneticraft:heavy_plates:6>, null],[<magneticraft:heavy_plates:6>, <ore:ingotGraphite>, <magneticraft:heavy_plates:6>], [null, <magneticraft:heavy_plates:6>, null]]);
 recipes.addShaped(<bigreactors:reactorcasing> * 4, [[null, <nuclearcraft:part>, null],[<nuclearcraft:part>, <ore:ingotGraphite>, <nuclearcraft:part>], [null, <nuclearcraft:part>, null]]);
 recipes.addShaped(<nuclearcraft:part> * 2, [[<magneticraft:heavy_plates:3>, <ore:plateGraphite>, null],[<ore:plateGraphite>, <magneticraft:heavy_plates:3>, null], [null, null, null]]);
-
-<ore:circuitBasic>.remove(<techreborn:part:29>);
-<ore:ingotSteel>.remove(<ancientwarfare:steel_ingot>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
-
-
-val whitelist = ["plateWood", "platePaper", "plateAdvanced", "plateDU", "plateElite"] as string[];
-
-for entry in oreDict {
-  if (entry.name.startsWith("plate") & !(whitelist has entry.name)) {
-    for item in entry.items {
-      recipes.remove(item);
-    }
-  }
-}
-
 
 recipes.remove(<geneticsreborn:airdispersal>);
 recipes.remove(<geneticsreborn:incubator>);

@@ -1,9 +1,10 @@
+#packmode techtree nogreg
 recipes.remove(<environmentaltech:modifier_creative_flight>);
 recipes.remove(<projecte:item.pe_swrg>);
 
 
 recipes.addShaped(<environmentaltech:modifier_creative_flight>, [
-	[<simplyjetpacks:itemjetpack:22>, <ore:crystalLitherite>, <minecraft:blaze_rod>], 
+	[<simplyjetpacks:itemjetpack:22>, <ore:crystalLitherite>, <minecraft:blaze_rod>],
 	[<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>],
 	[<ore:feather>, <ore:crystalLonsdaleite>, <ore:feather>]
 ]);
